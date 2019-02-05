@@ -26,11 +26,11 @@
       <div class="row">
           <div class="col-md-6">
               <a class="navbar-brand" href="#">
-                <img src="<?php bloginfo('template_url'); ?>/logo.png" width="190" height="130"  alt="">
+                <img class="logo" src="<?php bloginfo('template_url'); ?>/logo.png" width="190" height="130"  alt="">
               </a>
           </div>
           <div class="col-md-6 lead">
-          <div> <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('pesquisa') ) : ?>
+          <div class="pesquisar"> <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('pesquisa') ) : ?>
             <?php endif; ?></div>
           </div>
       </div>
