@@ -1,8 +1,8 @@
 <?php get_header(); ?>
     <div class="row">
-    <div class="col-9">
+    <div class="col-12">
 
-        <h1 class="mt-5">...</h1>
+        <h1 class="mt-5 text-center">Nossos Produtos</h1>
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <h1>
