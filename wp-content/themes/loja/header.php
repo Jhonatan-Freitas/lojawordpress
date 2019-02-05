@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Tema Personalizado </title>
+        <title> BitStore </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet"
@@ -22,6 +22,20 @@
 ) );
 ?>
 
+<div class="container-fuid">
+      <div class="row">
+          <div class="col-md-6">
+              <a class="navbar-brand" href="#">
+                <img src="<?php bloginfo('template_url'); ?>/logo.png" width="190" height="130"  alt="">
+              </a>
+          </div>
+          <div class="col-md-6 lead">
+          <div> <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('pesquisa') ) : ?>
+            <?php endif; ?></div>
+          </div>
+      </div>
+</div>      
+
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark" role="navigation">
   <div class="container-fluid">
@@ -29,7 +43,7 @@
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
-	<a class="navbar-brand" href="#">Navbar</a>
+	<a class="navbar-brand" href="#"></a>
 		<?php
 		wp_nav_menu( array(
 			'theme_location'    => 'primary',

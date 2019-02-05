@@ -2,7 +2,7 @@
     <div class="row">
     <div class="col-9">
 
-        <h1 class="mt-5">Últimos Posts</h1>
+        <h1 class="mt-5">...</h1>
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
             <h1>
