@@ -2,11 +2,8 @@
 <footer>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-8 lead"> <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_w1') ) : ?>
+            <div class="col-md-12 lead text-center text-dark"> <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_w1') ) : ?>
     <?php endif; ?></div>
-            <div class="col-4 lead"> <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_w2') ) : ?>
-    <?php endif; ?></div>
-        </div>    
     </div>
 </footer>
 
